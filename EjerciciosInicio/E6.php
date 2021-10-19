@@ -7,11 +7,9 @@
         <?php 
             $a=$_GET["a"];
             $b=$_GET["b"];
-            multiplicar($a,$b);
-            function multiplicar($a,$b){
-                $multiplicar=$a*$b;
-                echo "<p>La multiplicación de $a y $b es $multiplicar</p>";
-            }
+            $multiplicar=$a*$b;
+            
+            echo "<p>La multiplicación de $a y $b es $multiplicar</p>";
             
 
         ?>
